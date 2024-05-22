@@ -38,6 +38,5 @@ while True:
 for subj in result.keys():
     print(subj)
     for student in result[subj].keys():
-        print(student +" " + " ".join(str(element) for element in result[subj][student]))
+        print(student + " " + " ".join(str(element) for element in result[subj][student]))
     print("")
-
